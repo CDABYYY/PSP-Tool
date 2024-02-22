@@ -36,12 +36,15 @@ void PSPOutput::output() {
 		if (p->isChecked())choosed.push_back(i0);
 		i0++;
 	}
-	if (outputs[0]->isChecked())WriteWord::WriteWord1();
-	if (outputs[1]->isChecked())WriteWord::WriteWord2();
+	//尝试使用多线程，然而Word报错，遂放弃修改
+	if (outputs[0]->isChecked())WriteWord::WriteWord1(choosed);
+	if (outputs[1]->isChecked())WriteWord::WriteWord2(choosed);
 	for (auto& i : choosed) {
 		if (outputs[2]->isChecked())WriteWord::WriteWord3(i);
 		if (outputs[3]->isChecked())WriteWord::WriteWord4(i);
 	}
-	if (outputs[4]->isChecked())WriteWord::MergeAll();
+	int op[4] = { 0 };
+	for (int i = 0; i < 4; i++)if (outputs[i]->isCheckable())op[i] = 1;
+	if (outputs[4]->isChecked())WriteWord::MergeAll(choosed,op);
 	this->close();
 }
