@@ -1,0 +1,213 @@
+{
+    "ClassName": "2班",
+    "Datas1": [
+        {
+            "Date": 1205,
+            "Finished": false,
+            "ID": 1,
+            "InterruptTime": 0.016666666666666666,
+            "PartName": "123",
+            "StartTime": 701,
+            "StopTime": 702,
+            "Units": 50
+        },
+        {
+            "Date": 1205,
+            "Finished": true,
+            "ID": 1,
+            "InterruptTime": 0.06666666666666667,
+            "PartName": "123",
+            "StartTime": 706,
+            "StopTime": 707,
+            "Units": 60
+        },
+        {
+            "Date": 1205,
+            "Finished": false,
+            "ID": 2,
+            "InterruptTime": 0,
+            "PartName": "123",
+            "StartTime": 914,
+            "StopTime": 915,
+            "Units": 10
+        },
+        {
+            "Date": 1226,
+            "Finished": true,
+            "ID": 295,
+            "InterruptTime": 0,
+            "PartName": "123",
+            "StartTime": 651,
+            "StopTime": 652,
+            "Units": 10
+        },
+        {
+            "Date": 1226,
+            "Finished": true,
+            "ID": 295,
+            "InterruptTime": 0.016666666666666666,
+            "PartName": "123",
+            "StartTime": 654,
+            "StopTime": 655,
+            "Units": 10
+        },
+        {
+            "Date": 103,
+            "Finished": false,
+            "ID": 0,
+            "InterruptTime": 0,
+            "PartName": "10",
+            "StartTime": 1069,
+            "StopTime": 1069,
+            "Units": 10
+        },
+        {
+            "Date": 103,
+            "Finished": false,
+            "ID": 0,
+            "InterruptTime": 0,
+            "PartName": "100",
+            "StartTime": 1081,
+            "StopTime": 1081,
+            "Units": 10
+        }
+    ],
+    "DefectData": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+    ],
+    "Finished": [
+        {
+            "BeginDate": 1205,
+            "DataName": "123",
+            "DefectData": [
+                {
+                    "Date": 1205,
+                    "Description": "53",
+                    "FixDefect": 0,
+                    "FixTime": 0.06666666666666667,
+                    "Inject": 1,
+                    "Remove": 3,
+                    "Type": 20
+                }
+            ],
+            "Language": "C++",
+            "Phase": 7,
+            "PhaseTime": [
+                0.06666666666666667,
+                0.016666666666666666,
+                0.03333333333333333,
+                0.21666666666666667,
+                0.15,
+                0.08333333333333333,
+                0.13333333333333333
+            ],
+            "PlanUnits": 150,
+            "TotalTimes": 500,
+            "TotalUnits": 70,
+            "dataID": 1
+        }
+    ],
+    "InstrucorName": "徐婷",
+    "MaxUnit": 0,
+    "MinUnit": 0,
+    "PhaseTime": [
+        0.06666666666666667,
+        0.016666666666666666,
+        0.03333333333333333,
+        0.21666666666666667,
+        0.15,
+        0.08333333333333333,
+        0.13333333333333333
+    ],
+    "StudentName": "嘤嘤嘤",
+    "TotalTimes": 500,
+    "TotalUnits": 70,
+    "UnFinished": [
+        {
+            "BeginDate": 1204,
+            "DataName": "123",
+            "DefectData": [
+                {
+                    "Date": 1205,
+                    "Description": "TestDebug",
+                    "FixDefect": 1,
+                    "FixTime": 0.016666666666666666,
+                    "Inject": 0,
+                    "Remove": 3,
+                    "Type": 20
+                },
+                {
+                    "Date": 1226,
+                    "Description": "Debug2",
+                    "FixDefect": 0,
+                    "FixTime": 0.016666666666666666,
+                    "Inject": 0,
+                    "Remove": 5,
+                    "Type": 0
+                }
+            ],
+            "Language": "12",
+            "Phase": 5,
+            "PhaseTime": [
+                0.06666666666666667,
+                0.21666666666666667,
+                0.3833333333333333,
+                0.45,
+                0.48333333333333334,
+                0,
+                0
+            ],
+            "PlanUnits": 1234,
+            "TotalTimes": 500,
+            "TotalUnits": 90,
+            "dataID": 2
+        },
+        {
+            "BeginDate": 103,
+            "DataName": "10",
+            "DefectData": [
+            ],
+            "Language": "12",
+            "Phase": 0,
+            "PhaseTime": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "PlanUnits": 13,
+            "TotalTimes": 0,
+            "TotalUnits": 10,
+            "dataID": 3
+        },
+        {
+            "BeginDate": 103,
+            "DataName": "100",
+            "DefectData": [
+            ],
+            "Language": "10",
+            "Phase": 0,
+            "PhaseTime": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "PlanUnits": 10,
+            "TotalTimes": 6.95325990450116e-310,
+            "TotalUnits": 10,
+            "dataID": 4
+        }
+    ]
+}
